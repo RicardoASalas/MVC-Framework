@@ -3,15 +3,15 @@ $container = require __DIR__ . '/components/bootstrap/container.php';
 Kint::dump($container);
 
 
-$dispacher = require base_path('routes/web.php');
+$dispatcher = require base_path('routes/web.php');
 
-Kint::dump($dispacher);
+Kint::dump($dispatcher);
 
 $httpMethod= $_SERVER['REQUEST_METHOD'];
 
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
-$route= $dispacher->dispatch($httpMethod, $uri);
+$route= $dispatcher->dispatch($httpMethod, $uri);
 
 Kint::dump($route);
 

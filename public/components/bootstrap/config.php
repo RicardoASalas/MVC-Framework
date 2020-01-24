@@ -1,9 +1,12 @@
 <?php
 use Application\Controllers\HomeController;
-
+use Application\Controllers\ContactController;
 return [
 
-  HomeController::Class => function(){
+  HomeController::class => function(){
       return new HomeController;
+  },
+  ContactController::class => function() {
+  return new ContactController;
   }
 ];
