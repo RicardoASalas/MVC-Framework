@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Workerman\\MySQL\\' => array($vendorDir . '/workerman/mysql/src'),
+    'Twig\\' => array($vendorDir . '/twig/twig/src'),
     'Symfony\\Polyfill\\Util\\' => array($vendorDir . '/symfony/polyfill-util'),
     'Symfony\\Polyfill\\Php73\\' => array($vendorDir . '/symfony/polyfill-php73'),
     'Symfony\\Polyfill\\Php56\\' => array($vendorDir . '/symfony/polyfill-php56'),

@@ -25,6 +25,10 @@ class ComposerStaticInit5d0738eac7c62f843ec4196e6d5c8738
         array (
             'Workerman\\MySQL\\' => 16,
         ),
+        'T' => 
+        array (
+            'Twig\\' => 5,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Util\\' => 22,
@@ -103,6 +107,10 @@ class ComposerStaticInit5d0738eac7c62f843ec4196e6d5c8738
         'Workerman\\MySQL\\' => 
         array (
             0 => __DIR__ . '/..' . '/workerman/mysql/src',
+        ),
+        'Twig\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/twig/twig/src',
         ),
         'Symfony\\Polyfill\\Util\\' => 
         array (
