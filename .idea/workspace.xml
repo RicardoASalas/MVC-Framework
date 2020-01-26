@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ab7e00b-7d4e-40b3-976d-ed4c11c1a14b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Config/database.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Entities/Entity.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Entities/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MVC-Framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MVC-Framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/components/bootstrap/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/components/bootstrap/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/components/bootstrap/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/components/bootstrap/container.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +89,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/vendor/doctrine/reflection" />
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/workerman/mysql" />
     </include_path>
   </component>
   <component name="ProjectId" id="1Whb4sWM19nUg2mjoKbQ9zJRSPm" />
@@ -83,8 +104,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -119,6 +142,9 @@
       <workItem from="1579604590756" duration="1180000" />
       <workItem from="1579606142851" duration="19780000" />
       <workItem from="1579864952690" duration="6894000" />
+      <workItem from="1580059443487" duration="3123000" />
+      <workItem from="1580063630992" duration="2109000" />
+      <workItem from="1580065766975" duration="824000" />
     </task>
     <servers />
   </component>
@@ -134,6 +160,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="859" y="296" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1579607866926" />
+    <state x="108" y="0" key="SettingsEditor" timestamp="1580059862255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="108" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1580059862255" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1579865098985">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

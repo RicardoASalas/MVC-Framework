@@ -1,9 +1,19 @@
 <?php
     namespace Application\Controllers;
+    use Application\Providers\Doctrine;
+    use Application\Models\Entities\User;
 
         class HomeController{
 
+            protected $doctrine;
+            //utilizamos un constructor para tener disponible $doctrine en el controlador:
+            public function __construct(Doctrine $doctrine)
+            {
+                $this->doctrine = $doctrine;
+            }
+
             public function index(){
+                //Mostrar datos de un usuario de la base de datos:
 
                 echo ('       
                 <link rel="stylesheet" href="./components/bootstrap/dist/css/bootstrap.css">
@@ -23,7 +33,15 @@
                                 </ul>            
                                 </div>        
                                 </nav>    ');
+
                                 echo ('<h1>Bienvenid@</h1>');
+                               
+                                \Kint::dump($this->doctrine);
+
+                                $user = $this->doctrine->em->getRepository(User::class)->find(2);
+
+                                \Kint::dump($user);
+
             }
 
         }

@@ -21,6 +21,10 @@ class ComposerStaticInit5d0738eac7c62f843ec4196e6d5c8738
     );
 
     public static $prefixLengthsPsr4 = array (
+        'W' => 
+        array (
+            'Workerman\\MySQL\\' => 16,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Util\\' => 22,
@@ -96,6 +100,10 @@ class ComposerStaticInit5d0738eac7c62f843ec4196e6d5c8738
     );
 
     public static $prefixDirsPsr4 = array (
+        'Workerman\\MySQL\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/workerman/mysql/src',
+        ),
         'Symfony\\Polyfill\\Util\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-util',

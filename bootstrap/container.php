@@ -1,6 +1,6 @@
 
 <?php
-require __DIR__ . '/../../../vendor/autoload.php';
+require __DIR__ . '/../vendor/autoload.php';
 
 
 $containerBuilder = new \DI\ContainerBuilder;
@@ -9,9 +9,9 @@ $containerBuilder = new \DI\ContainerBuilder;
 $containerBuilder->useAutowiring(true);
 
 
-// Kint::dump($containerBuilder);
+Kint::dump($containerBuilder);
 
-// $containerBuilder->addDefinitions(__DIR__ . '/config.php');
+$containerBuilder->addDefinitions(__DIR__ . '/config.php');
 
 $container = $containerBuilder->build();
 

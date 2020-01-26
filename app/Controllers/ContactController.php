@@ -1,6 +1,16 @@
+<?php
 namespace Application\Controllers;
-class ContactController
-{
+use Application\Providers\Doctrine;
+
+class ContactController{
+            protected $doctrine;
+            //utilizamos un constructor para tener disponible $doctrine en el controlador:
+            public function __construct(Doctrine $doctrine)
+            {
+                $this->doctrine = $doctrine;
+            }
+
+
 public function contact()
 {
 echo('
@@ -24,4 +34,7 @@ false" aria-label="Toggle navigation">
 </nav>
 ');
 echo('<h1>Contacto</h1>');
+
+\Kint::dump($this->doctrine);
+}
 }

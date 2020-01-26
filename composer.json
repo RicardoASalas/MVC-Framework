@@ -12,7 +12,9 @@
         "kint-php/kint": "^3.1",
         "symfony/validator": "^4.2",
         "respect/validation": "^1.1",
-        "fzaninotto/faker": "^1.9"
+        "fzaninotto/faker": "^1.9",
+        "doctrine/annotations": "^1.8",
+        "workerman/mysql": "^1.0"
     },
     "authors": [
         {

@@ -1,5 +1,5 @@
 <?php
-$container = require __DIR__ . '/components/bootstrap/container.php';
+$container = require __DIR__ . '/../bootstrap/container.php'; 
 Kint::dump($container);
 
 

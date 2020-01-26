@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "22e7f4884603646def68337571f7547c",
+    "content-hash": "3b9a5cc19d19a2b84da6e6e621f2c244",
     "packages": [
         {
             "name": "aura/session",
@@ -2787,6 +2787,44 @@
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
             "time": "2019-12-10T10:33:21+00:00"
+        },
+        {
+            "name": "workerman/mysql",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/mysql.git",
+                "reference": "28272aa68f9ea1a482f9bb0cf709d169f772d228"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walkor/mysql/zipball/28272aa68f9ea1a482f9bb0cf709d169f772d228",
+                "reference": "28272aa68f9ea1a482f9bb0cf709d169f772d228",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pdo": "*",
+                "ext-pdo_mysql": "*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Workerman\\MySQL\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Long-living MySQL connection for daemon.",
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "mysql",
+                "pdo",
+                "pdo_mysql"
+            ],
+            "time": "2019-08-02T10:43:09+00:00"
         }
     ],
     "packages-dev": [],
